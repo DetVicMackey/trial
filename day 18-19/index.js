@@ -76,7 +76,7 @@ var runner = function(name) {
   raceLines.appendChild(imgLineTrack);
 
   //5th block
-
+  //hello worls
   var runnerDiv = document.createElement("DIV");
   runnerDiv.setAttribute("class", "inlineBlock runnerDiv");
   var runner = document.createElement("DIV");
@@ -102,14 +102,14 @@ var runner = function(name) {
     var count = 10;
     var step = random / count;
     var startTime = new Date().getTime();
-    
+
     var interval = setInterval(function() {
       if (parent.left > 629) {
         console.log("everything is fine");
         clearInterval(interval);
         return;
       }
-      
+
       for (var i = 0; i < 10000; i++) {
         parent.left += 0.0063;
         document.getElementById(parent.name).style.left = parent.left + "px";
@@ -121,8 +121,8 @@ var runner = function(name) {
         var remainingTime = random - timeGoneBy;
         step = remainingTime / count;
         console.log(parent.name +" "+   step + " " + count + " \ntime elapsed =  " +  timeGoneBy + "  remianing_time = "  + remainingTime );
-        
-     
+
+
     }, step);
   };
 
@@ -137,7 +137,7 @@ var runner = function(name) {
 var createRunner = function(name){
       myRunners.push(new runner(name));
       runnerCount++;
-} 
+}
 
 
 //function for race
