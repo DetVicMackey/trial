@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}   
+   
+
+
+/* id */
+.main{
+    
+    height: 91px;
+    position: relative;
+}
+.sam{
+    border: 2px solid black;
+    background-color: white;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.main{
+    background-color: #9e9e9e;
+    position: relative;
+}
+
+.resetBlock{
+    width:107px;
+    height: 89px;
+    position: absolute;
+    left: 80px;
+    top: 15px;
+
+}
+
+.resetGo{
+    background-color:#57e4ae;
+    width: 94px;
+    height: 34px;
+    margin-top: 5px;
+}
+
+.raceTrack{
+    position: absolute;
+    left: 184px;
+    top: 10px;
+}
+.raceLines{
+    position: absolute;
+    left: 184px;
+    top: 10px;
+    
+}
+
+.runnerDiv{
+    position: absolute;
+    width: 26px;
+    height: 30px;
+    left: 184px;
+    top: 40px;
+}
+
+.runner{
+    position: absolute;
+    background-image: url(running-sequence.png);
+    background-position: 0px 0px;
+    width: 26px;
+    height: 30px;
+   
+}
+/*class*/
+.inlineBlock{
+    display: inline-block;
+    
+}
+
+.name{
+    text-align: center;
+}
+
+
